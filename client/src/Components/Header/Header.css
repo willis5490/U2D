@@ -1,0 +1,38 @@
+#headerBody{
+    background-color: #485054;
+    
+
+}
+.dropdown-item{
+    font-size: 13px;
+}
+ #logo-nav{
+     width: 160px;
+     height: 120px;
+     padding: 15px;
+ }
+ .uk-offcanvas-bar{
+     background-color: #485054;
+     
+ }
+ .uk-navbar-nav>li>a{
+     color: white;
+     font-family: 'Maitree', serif;
+ }
+ .uk-navbar-dropdown{
+     background-color: #485054;
+    
+ }
+ .uk-navbar-dropdown-nav>li>a{
+    color: white;
+    font-family: 'Maitree', serif;
+ }
+ #mobileMenu{
+     padding: 15px 0px 15px 5px;
+ }
+ .mobileMenuText{
+     font-size: 19px;
+ }
+ #mobileLogo{
+     padding: 15px 0px 15px 0px;
+ }

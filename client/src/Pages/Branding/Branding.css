@@ -1,0 +1,30 @@
+.servicetext{
+    color: #333333 !important;
+}
+.BrandingBottomPics{
+    height: 300px;
+}
+#brandingH2{
+    color: #69819B !important;
+}
+
+
+/* mobile */
+@media only screen and (max-width: 960px) { 
+   #brandingH2{
+       font-size: 25px;
+   }
+  
+
+}
+
+@media only screen and (max-width: 480px) { 
+    #brandingH2{
+        font-size: 20px;
+    }
+    #brandingH1{
+        font-size: 30px;
+    }
+ 
+
+}

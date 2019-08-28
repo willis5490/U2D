@@ -1,0 +1,257 @@
+
+#homeButton{
+    
+    color: #ECEEF0;
+}
+.uk-height-large{
+    overflow: hidden;
+     
+}
+.homePicsR{
+    width: 350px;
+    height: 250px;
+    margin-left: 200px;
+}
+
+#logoAnimation{
+    width: 150px;
+    height: 150px;
+}
+#svg868{
+    height: 150px;
+    widows: 150px;
+}
+.homeButtons{
+    background-color: #6A829C !important;
+}
+.homePicsL{
+    width: 350px;
+    height: 250px;
+    margin-right: 200px;
+}
+
+.homeHeadPiece{
+    margin-bottom: 8em;
+}
+.h1HomeTextDiv{
+    padding-right: 10em;
+    padding-left: 10em;
+    margin-bottom: 4em;
+}
+#tspan2{
+    color: red !important;
+}
+#homeMainPic{
+    height: 615px;
+    margin-top: -2em;
+    background-position: 50% 50%;
+    background-size: cover;
+    color: transparent;
+    background-repeat: none;
+    /* animation: backroundChange 20s  infinite 0s;
+    animation-direction: alternate;
+    animation-delay: -10s; */
+    /* background: url('../../imagesSRC/U2DHomePic1.jpeg'); */
+    background-color: #C6CDD1;
+}
+#homeButtonsDiv{
+    margin-top: 10em;
+}
+#homeParagraph{
+    padding-left: 70px;
+    padding-right: 70px;
+    color: #6A829C;
+}
+.lastHomeDiv{
+    margin-bottom: 2em;
+}
+#homeStatment{
+    color: #333333
+}
+.pageLinks{
+    color: #6A829C;
+}
+.pageLinks:hover{
+    color: #333333;
+}
+.processHome{
+    font-size: 40px;
+}
+.homeInfoSections{
+    color: black;
+}
+.homeInfoSections2{
+    color: black;
+
+}
+h1{
+    color: #333333 !important;
+}
+
+.lines{
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    fill-opacity: 0;
+    animation: move 20s linear infinite ;
+}
+.smallLines{
+    /* stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+    fill-opacity: 0;
+    animation: move 35s linear infinite ; */
+}
+
+@keyframes move {
+    from {
+        stroke-dashoffset: 1000;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+      
+    
+  }
+
+  @-webkit-keyframes move {
+    from {
+        stroke-dashoffset: 1000;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+  }
+
+
+/* mobile */
+
+@media only screen and (max-width: 1200px) { 
+    #homeStatment{
+        font-size: 30px;
+    }
+    #homeH1Text{
+    
+        font-size: 25px;
+    }
+    .h1HomeTextDiv{
+        padding-right: 0em;
+        padding-left: 0em;
+    }
+    #homeMainPic{
+        /* height: 615px; */
+        margin-top: -2em;
+        background-position: 20% 20%;
+        background-size: cover;
+       
+    }
+    #homeParagraph{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 20px;
+       
+    }
+    #homeButton2{ 
+        margin-bottom: 80px;
+    }
+    .homeSectionHeaders{
+        font-size: 25px;
+    }
+    .homeSectionPara{
+        font-size: 20px;
+        color: black;
+    }
+    .homePics{
+        height: 350px !important;
+        width: 80% !important;
+    }
+}
+
+
+@media only screen and (max-width: 960px) { 
+    #homeStatment{
+        font-size: 30px;
+    }
+    #homeH1Text{
+    
+        font-size: 25px;
+    }
+    .h1HomeTextDiv{
+        padding-right: 0em;
+        padding-left: 0em;
+    }
+    #homeMainPic{
+        /* height: 615px; */
+        margin-top: -2em;
+        background-position: 20% 20%;
+        background-size: cover;
+       
+    }
+    #homeParagraph{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 18px;
+       
+    }
+    #homeButton2{ 
+        margin-bottom: 80px;
+    }
+    .homeSectionHeaders{
+        font-size: 25px;
+    }
+    .homeSectionPara{
+        font-size: 18px;
+        color: black;
+    }
+    .homePics{
+        height: 300px !important;
+        width: 80% !important;
+    }
+}
+
+
+@media only screen and (max-width: 480px) { 
+    #homeStatment{
+        font-size: 30px;
+    }
+    #homeH1Text{
+    
+        font-size: 30px;
+    }
+    .h1HomeTextDiv{
+        padding-right: 0em;
+        padding-left: 0em;
+        
+    }
+    #homeMainPic{
+        /* height: 615px; */
+        margin-top: -2em;
+        background-position: 20% 20%;
+        background-size: cover;
+       
+    }
+    #homeParagraph{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 18px;
+       
+    }
+    #homeButton2{
+        margin-bottom: 80px;
+    }
+    .homeSectionHeaders{
+        font-size: 25px;
+    }
+    .homeSectionPara{
+        font-size: 18px;
+        color: black;
+    }
+    .homeButtons{
+        font-size: 12px;
+    }
+    .processHome{
+        font-size: 30px;
+    }
+    .homePics{
+        height:250px !important;
+        width: 100% !important;
+    }
+}

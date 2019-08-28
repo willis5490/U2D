@@ -1,0 +1,45 @@
+
+#homeConsultingStatment:hover{
+    text-decoration: none;
+}
+.consultingBottomScetion{
+    background-color: #ECEEF0;
+}
+.consultingSecondPart{
+    padding-left: 0px !important;
+}
+#consultingSecondSection{
+    background-color: #C6CDD1;
+}
+#landingLinkConsulting{
+    background-color: #C6CDD1;
+}
+
+#consultingH1{
+    color: #69819B !important;
+}
+.uk-overflow-hidden{
+    overflow: hidden !important;
+}
+/* mobile */
+@media only screen and (max-width: 960px) { 
+   #consultingHeadies{
+    font-size: 30px;
+   }
+   #consultingH1{
+    font-size: 25px;
+    }
+    .seoBottomPics{
+        height: 300px !important;
+       
+    }
+}
+
+@media only screen and (max-width: 480px) { 
+   
+    .seoBottomPics{
+        height: 250px !important;
+       
+    }
+
+}

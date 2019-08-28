@@ -1,0 +1,182 @@
+#firstWebsiteCard{
+    margin-top: 8em;
+}
+h1{
+    line-height: 1.5 !important;
+}
+#websiteMainText{
+    margin-top: 6em;
+    height: 615px;
+
+}
+#mobileWebsiteLink{
+    color: #6A829C;
+}
+
+.homeHeadPiece{
+    text-align: center;
+}
+#websiteCarousel{
+  background-color: #C6CDD1;
+}
+.websiteSections{
+    background-color: #C6CDD1 !important;
+}
+.websiteCards{
+    background-color: #ECEEF0 !important;
+
+}
+#websiteBottomSection{
+  background-color: #C6CDD1 !important;
+  margin-bottom: 0em;
+}
+#websiteTopInfo{
+    padding-left: 75px;
+    padding-right: 75PX;
+    color: #333333;
+}
+
+.carousel .slide img {
+    max-height: 550px;
+    width: auto;
+
+}
+
+.control-arrow{
+    background-color: #C6CDD1 !important;
+}
+.control-arrow:hover{
+    background-color: #C6CDD1 !important;
+}
+
+.carousel .slide {
+    background-color: #C6CDD1;
+    color: black;
+}
+.carousel  {
+    color: black;
+}
+.websiteCloudText{
+    margin-bottom: 20px !important;
+    list-style-type: none;
+    color: black;
+}
+.uk-card-default {
+    background-color: #ECEEF0;
+    color: black;
+}
+a{
+    color: #6A829C;
+}
+.websitelinks{
+    color: #6A829C !important;
+}
+a:hover{
+    color: black;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px !important;
+}
+#websiteh2header{
+    color: #69819B;
+}
+.websiteBottomPic{
+    height: 250px;
+}
+.carouselImages{
+    width: 100%;
+    height: 500px;
+}
+
+
+/* mobile */
+@media only screen and (max-width: 1200px) {
+  
+    #websiteTopInfo{
+        padding-left: 0px;
+        padding-right: 0PX;
+      
+    }
+    
+
+}
+
+@media only screen and (max-width: 960px) {
+    #websiteheader{
+        font-size: 35px;
+    }
+    #websiteh2header{
+        font-size: 25px;
+    }
+    #websiteTopInfo{
+        padding-left: 0px;
+        padding-right: 0PX;
+        font-size: 18px;
+    }
+    #websiteMainText{
+        margin-top: 2em;
+        height: 615px;
+    }
+  .carousel{
+      margin-right: 40px !important;
+  }
+  #websiteBottomSection{
+    margin-bottom: -30px;
+  }
+  .websiteClouds{
+      font-size: 25px;
+  }
+  .carousel .slide img {
+    height: 350px;
+    width: auto;
+
+}
+.legend{
+    width: 40% !important;
+    background-color: #69819B !important;
+    left: -25% !important;
+}
+.carouselImages{
+    width: 100%;
+    height: 350px;
+}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    #websiteheader{
+        font-size: 30px;
+    }
+    #websiteh2header{
+        font-size: 25px;
+    }
+    #websiteTopInfo{
+        padding-left: 0px;
+        padding-right: 0PX;
+        font-size: 18px;
+    }
+    #websiteMainText{
+        margin-top: 2em;
+
+    }
+  .carousel{
+      margin-right: 40px !important;
+  }
+  #websiteBottomSection{
+    margin-bottom: -30px;
+  }
+  .websiteBottomPic{
+    height: 200px;
+    }
+    #hostingHeader{
+        font-size: 30px;
+    }
+    .websiteClouds{
+        font-size: 25px;
+    }
+    .websiteCloudText{
+        font-size: 18px;
+    }
+}

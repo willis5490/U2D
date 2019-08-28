@@ -1,0 +1,39 @@
+
+
+#send-button{
+    background-color: #6A829C;
+}
+
+.ContactInputBody{
+    background-color: #F9FAFA;
+   
+}
+.Toastify__toast-container--bottom-center{
+    bottom: 22em !important;
+}
+
+
+/* mobile */
+@media only screen and (max-width: 960px) { 
+  
+    .contactHeader{
+        font-size: 20px;
+    }
+    /* .Toastify__toast-container--bottom-center{
+        bottom: 22em !important;
+        width: 300px !important;
+        
+    } */
+    
+}
+
+
+@media only screen and (max-width: 480px) { 
+  
+    .contactHeader{
+        font-size: 18px;
+    }
+    #formheader{
+        font-size: 18px;
+    }
+}

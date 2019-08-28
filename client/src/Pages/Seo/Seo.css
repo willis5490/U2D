@@ -1,0 +1,72 @@
+.servicesMainPictures{
+    height: 601px;
+    width: 100%;
+}
+.serviceFirstSection{
+    margin-top: -1.25em;
+    background-color: #ECEEF0 !important;
+}
+.seoBottomPics{
+    height: 200px;
+}
+
+.SeoSections1{
+    background-color: #C6CDD1;
+}
+#seoHeaderPara{
+    color: #69819B;
+}
+.SeoSections2{
+    background-color: #ECEEF0;
+
+}
+.fa-yin-yang{
+    color: black;
+}
+p{
+    color: black;
+}
+
+.uk-icon-button{
+    color: black;
+    background-color: #69819B;
+}
+
+
+
+/* mobile */
+
+
+@media only screen and (max-width: 960px) {
+    .servicesMainPictures{
+        height: 350px;
+        width: 70%
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    #seoMainPicture{
+        height: 300px;
+        width: 90%
+    }
+    #seoHeader{
+        font-size: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #seoHeaderPara{
+        font-size: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .servicesMainPictures{
+        height: 250px;
+        width: 90%
+    }
+    .seoServiceH1{
+        font-size: 30px;
+    }
+}

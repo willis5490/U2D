@@ -1,0 +1,32 @@
+{
+  "name": "U2D",
+  "version": "1.0.0",
+  "description": "U2D Web Solutions",
+  "main": "server.js",
+  "repository": "git@github.com:willis5490/U2D.git",
+  "author": "William Stearns",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "if-env NODE_ENV=production && yarn start:prod || yarn start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"yarn run client\"",
+    "client": "cd client && yarn start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && yarn install",
+    "build": "cd client && yarn build",
+    "heroku-postbuild": "yarn build"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "if-env": "^1.0.4"
+  }
+}

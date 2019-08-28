@@ -1,0 +1,89 @@
+#footerBody{
+    
+    background-color: #83919A;
+}
+#footer-logo{
+    width: 160px;
+    height: 120px;
+    padding: 15px;
+}
+#secondfooter{
+    background-color: #83919A;
+    margin-bottom: 0px !important;
+    
+}
+#rightmobilefooter{
+    padding-bottom: 10px;
+   
+}
+#centerfooter{
+    text-decoration: none !important;
+}
+
+.fab{
+    margin: 10px;
+    color: #485054;
+}
+.fab:hover{
+    
+    color: #6A829C;
+}
+#copywritemobile{
+    font-size: 15px;
+    color: black !important;
+}
+#copywritemobile:hover{
+    font-size: 15px;
+    color: #6A829C !important; 
+}
+#copywritemobile2{
+    font-size: 15px;
+    color: black !important;
+  
+}
+#copywritemobile2:hover{
+    font-size: 15px;
+    color: #6A829C !important; 
+}
+.blop{
+       margin-top: -20px !important;
+}
+#contactFooter{
+    margin-bottom: 20px !important;
+    text-decoration: none !important;
+}
+#contactFooter:hover{
+    color: #6A829C !important;
+    text-decoration: none !important;
+
+}
+#copyfooter{
+    margin-top: 72px;
+}
+
+@media only screen and (max-width: 960px) { 
+    #footer-logo{
+        margin-top: 15px;
+    }
+    .blop{
+
+    }
+ 
+   
+}
+
+@media only screen and (max-width: 480px) { 
+    #footer-logo{
+        width: 125px;
+        height: 100px;
+        margin-top: 15px;
+    }
+    #copywritemobile{
+        font-size: 15px;
+        color: black !important;
+    }
+    #followFooter{
+        font-size: 20px;
+    }
+   
+}
