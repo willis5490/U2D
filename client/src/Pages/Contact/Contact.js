@@ -167,16 +167,16 @@ class Contact extends Component {
               this.setState({
                 cappa: true
               });
-              axios.post("https://www.google.com/recaptcha/api/siteverify", {
-                secret: process.env.REACT_APP_GOOGLEKEY,
-                response: this.onChange
-              })
-                .then((response) => {
-                  console.log(response)
-                })
-                .catch((err) => {
-                  console.log(err)
-                })
+              // axios.post("https://www.google.com/recaptcha/api/siteverify", {
+              //   secret: process.env.REACT_APP_GOOGLEKEY,
+              //   response: this.onChange
+              // })
+              //   .then((response) => {
+              //     console.log(response)
+              //   })
+              //   .catch((err) => {
+              //     console.log(err)
+              //   })
             }}
             data-theme="dark"
           />
